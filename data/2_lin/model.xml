@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MLlib_XML_File>
+	<MachineLearningModel modelName="support_vector_machine" defaultEngine="svm_fp64_engine">
+		<CustomAttributes />
+		<AuxiliarySpecifications>
+			<PTI str_producer="Beckhoff MLlib" str_producerVersion="3.1.220310.0" str_requiredVersion="3.1.200902.0" />
+		</AuxiliarySpecifications>
+		<Configuration str_operationType="SVM_TYPE_NU_CLASSIFIER" fp64_nu="0.5" str_kernelFunction="KERNEL_FN_LINEAR" int64_numInputAttributes="2" />
+		<Parameters str_engine="svm_fp64_engine">
+			<ModelInfo int64_numClasses="2" int64_numSVs="2" arrint32_classLabels="0,1" arrint32_numSVsPerClass="1,1" />
+			<ProbabilityInfo fp64_rhoConstants="0.23591651022434235" bool_hasPairwiseProbabilities="false" />
+			<SupportVectors str_type="fp64" int64_rows="2" int64_columns="2">
+				<Row1 arrfp64_vals="-4.426508903503418,4.639625072479248" />
+				<Row2 arrfp64_vals="1.9556442499160767,-3.4820623397827148" />
+			</SupportVectors>
+			<SupportVectorClassCoefficients str_type="fp64" int64_rows="1" int64_columns="2">
+				<Row1 arrfp64_vals="0.018745250999927521,-0.018745250999927521" />
+			</SupportVectorClassCoefficients>
+		</Parameters>
+	</MachineLearningModel>
+</MLlib_XML_File>

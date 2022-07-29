@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MLlib_XML_File>
+	<MachineLearningModel modelName="support_vector_machine" defaultEngine="svm_fp64_engine">
+		<CustomAttributes />
+		<AuxiliarySpecifications>
+			<PTI str_producer="Beckhoff MLlib" str_producerVersion="3.1.220310.0" str_requiredVersion="3.1.200902.0" />
+		</AuxiliarySpecifications>
+		<Configuration str_operationType="SVM_TYPE_NU_CLASSIFIER" fp64_nu="0.5" str_kernelFunction="KERNEL_FN_LINEAR" int64_numInputAttributes="2" />
+		<Parameters str_engine="svm_fp64_engine">
+			<ModelInfo int64_numClasses="3" int64_numSVs="9" arrint32_classLabels="0,1,2" arrint32_numSVsPerClass="3,3,3" />
+			<ProbabilityInfo arrfp64_rhoConstants="3.2297852039337158,2.1552207469940186,-4.7743721008300781" bool_hasPairwiseProbabilities="false" />
+			<SupportVectors str_type="fp64" int64_rows="9" int64_columns="2">
+				<Row1 arrfp64_vals="-5.828031063079834,0.94432967901229858" />
+				<Row2 arrfp64_vals="-4.9057955741882324,3.1555061340332031" />
+				<Row3 arrfp64_vals="-6.5022220611572266,0.30634379386901855" />
+				<Row4 arrfp64_vals="-1.8106956481933594,-1.063264012336731" />
+				<Row5 arrfp64_vals="-2.0549135208129883,-0.94304633140563965" />
+				<Row6 arrfp64_vals="-2.7074239253997803,1.3734589815139771" />
+				<Row7 arrfp64_vals="-4.3742613792419434,-1.7740414142608643" />
+				<Row8 arrfp64_vals="-2.6366071701049805,-1.6495088338851929" />
+				<Row9 arrfp64_vals="-2.4903569221496582,-1.7948400974273682" />
+			</SupportVectors>
+			<SupportVectorClassCoefficients str_type="fp64" int64_rows="2" int64_columns="9">
+				<Row1 arrfp64_vals="0.090291552245616913,0.18101027607917786,0,-0,-0,-0.27130183577537537,-0.22614789009094238,-0,-0" />
+				<Row2 arrfp64_vals="0.028189502656459808,0,0.19795839488506317,1,1,0,-0,-1,-1" />
+			</SupportVectorClassCoefficients>
+		</Parameters>
+	</MachineLearningModel>
+</MLlib_XML_File>

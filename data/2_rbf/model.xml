@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MLlib_XML_File>
+	<MachineLearningModel modelName="support_vector_machine" defaultEngine="svm_fp64_engine">
+		<CustomAttributes />
+		<AuxiliarySpecifications>
+			<PTI str_producer="Beckhoff MLlib" str_producerVersion="3.1.220310.0" str_requiredVersion="3.1.200902.0" />
+		</AuxiliarySpecifications>
+		<Configuration str_operationType="SVM_TYPE_NU_CLASSIFIER" fp64_nu="0.5" str_kernelFunction="KERNEL_FN_RBF" fp64_gamma="0.022204091772437096" int64_numInputAttributes="2" />
+		<Parameters str_engine="svm_fp64_engine">
+			<ModelInfo int64_numClasses="2" int64_numSVs="11" arrint32_classLabels="0,1" arrint32_numSVsPerClass="6,5" />
+			<ProbabilityInfo fp64_rhoConstants="0.027713833376765251" bool_hasPairwiseProbabilities="false" />
+			<SupportVectors str_type="fp64" int64_rows="11" int64_columns="2">
+				<Row1 arrfp64_vals="3.8263680934906006,4.962367057800293" />
+				<Row2 arrfp64_vals="5.1508541107177734,1.2195836305618286" />
+				<Row3 arrfp64_vals="-0.91427809000015259,-0.68471145629882812" />
+				<Row4 arrfp64_vals="-0.53885430097579956,-0.95016437768936157" />
+				<Row5 arrfp64_vals="1.4219452142715454,5.732114315032959" />
+				<Row6 arrfp64_vals="-0.78735297918319702,-0.74931585788726807" />
+				<Row7 arrfp64_vals="-9.710540771484375,-9.9706306457519531" />
+				<Row8 arrfp64_vals="-5.3748831748962402,-3.9670183658599854" />
+				<Row9 arrfp64_vals="-3.9510478973388672,-5.1212806701660156" />
+				<Row10 arrfp64_vals="-10.351971626281738,-9.1252098083496094" />
+				<Row11 arrfp64_vals="-3.5746965408325195,-5.4020395278930664" />
+			</SupportVectors>
+			<SupportVectorClassCoefficients str_type="fp64" int64_rows="1" int64_columns="11">
+				<Row1 arrfp64_vals="0.52103829383850098,0.005112992599606514,1,0.37749326229095459,0.00086170376744121313,0.46287265419960022,-0.39580503106117249,-0.78420698642730713,-0.091290533542633057,-0.096076346933841705,-1" />
+			</SupportVectorClassCoefficients>
+		</Parameters>
+	</MachineLearningModel>
+</MLlib_XML_File>

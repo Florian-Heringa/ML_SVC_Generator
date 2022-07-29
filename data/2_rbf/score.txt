@@ -1,0 +1,3 @@
+Score: 1.0
+Kernel:rbf
+NumBlobs:2

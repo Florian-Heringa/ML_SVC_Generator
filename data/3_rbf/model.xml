@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MLlib_XML_File>
+	<MachineLearningModel modelName="support_vector_machine" defaultEngine="svm_fp64_engine">
+		<CustomAttributes />
+		<AuxiliarySpecifications>
+			<PTI str_producer="Beckhoff MLlib" str_producerVersion="3.1.220310.0" str_requiredVersion="3.1.200902.0" />
+		</AuxiliarySpecifications>
+		<Configuration str_operationType="SVM_TYPE_NU_CLASSIFIER" fp64_nu="0.5" str_kernelFunction="KERNEL_FN_RBF" fp64_gamma="0.010692862793803215" int64_numInputAttributes="2" />
+		<Parameters str_engine="svm_fp64_engine">
+			<ModelInfo int64_numClasses="3" int64_numSVs="37" arrint32_classLabels="0,1,2" arrint32_numSVsPerClass="9,14,14" />
+			<ProbabilityInfo arrfp64_rhoConstants="-0.087105892598628998,-0.07087361067533493,0.019440442323684692" bool_hasPairwiseProbabilities="false" />
+			<SupportVectors str_type="fp64" int64_rows="37" int64_columns="2">
+				<Row1 arrfp64_vals="-6.2073764801025391,-6.149113655090332" />
+				<Row2 arrfp64_vals="-8.3008861541748047,-12.427714347839355" />
+				<Row3 arrfp64_vals="-6.6760954856872559,-5.6923818588256836" />
+				<Row4 arrfp64_vals="-5.7854123115539551,-6.9895076751708984" />
+				<Row5 arrfp64_vals="-8.384552001953125,-4.6614928245544434" />
+				<Row6 arrfp64_vals="-13.243236541748047,-7.5182085037231445" />
+				<Row7 arrfp64_vals="-12.591934204101562,-10.82047176361084" />
+				<Row8 arrfp64_vals="-7.0607004165649414,-11.84819221496582" />
+				<Row9 arrfp64_vals="-10.524229049682617,-12.379313468933105" />
+				<Row10 arrfp64_vals="5.1091747283935547,1.633694052696228" />
+				<Row11 arrfp64_vals="4.5788168907165527,2.3991422653198242" />
+				<Row12 arrfp64_vals="3.7587966918945312,2.8699414730072021" />
+				<Row13 arrfp64_vals="3.5236761569976807,2.792820930480957" />
+				<Row14 arrfp64_vals="4.9356260299682617,1.9357445240020752" />
+				<Row15 arrfp64_vals="3.3852288722991943,2.9234740734100342" />
+				<Row16 arrfp64_vals="4.1583704948425293,2.5926532745361328" />
+				<Row17 arrfp64_vals="3.6786293983459473,2.710707426071167" />
+				<Row18 arrfp64_vals="5.0167102813720703,1.7487616539001465" />
+				<Row19 arrfp64_vals="1.0117760896682739,-0.84313935041427612" />
+				<Row20 arrfp64_vals="4.3722295761108398,2.2668135166168213" />
+				<Row21 arrfp64_vals="4.6325492858886719,2.3749182224273682" />
+				<Row22 arrfp64_vals="3.3566081523895264,2.9355800151824951" />
+				<Row23 arrfp64_vals="0.76732021570205688,-0.60625815391540527" />
+				<Row24 arrfp64_vals="6.400115966796875,4.3275713920593262" />
+				<Row25 arrfp64_vals="10.325181007385254,6.4489865303039551" />
+				<Row26 arrfp64_vals="5.5765056610107422,4.5226378440856934" />
+				<Row27 arrfp64_vals="5.2348337173461914,5.2108707427978516" />
+				<Row28 arrfp64_vals="6.8447508811950684,3.8835108280181885" />
+				<Row29 arrfp64_vals="7.0266251564025879,9.6377410888671875" />
+				<Row30 arrfp64_vals="5.1876354217529297,5.252662181854248" />
+				<Row31 arrfp64_vals="6.0463700294494629,4.4012904167175293" />
+				<Row32 arrfp64_vals="5.0809836387634277,5.3448209762573242" />
+				<Row33 arrfp64_vals="6.9387092590332031,3.8845005035400391" />
+				<Row34 arrfp64_vals="6.1110296249389648,4.318974494934082" />
+				<Row35 arrfp64_vals="5.0548181533813477,5.2562446594238281" />
+				<Row36 arrfp64_vals="5.1355962753295898,5.1301999092102051" />
+				<Row37 arrfp64_vals="6.6552352905273438,4.0001673698425293" />
+			</SupportVectors>
+			<SupportVectorClassCoefficients str_type="fp64" int64_rows="2" int64_columns="37">
+				<Row1 arrfp64_vals="1,0,0.47241753339767456,0.067521914839744568,0,0,0.20422111451625824,0,0,-0,-0,-0,-0,-0,-0,-0,-0,-0,-0.74416053295135498,-0,-0,-0,-1,-0,-0.33883428573608398,-0.56723767518997192,-0,-0,-0.38651782274246216,-0,-0,-0,-0,-0,-0,-0,-0" />
+				<Row2 arrfp64_vals="0.4368322491645813,0.05570593848824501,0,0,0.095614507794380188,0.33709609508514404,0,0.12714941799640656,0.24019159376621246,1,1,1,1,1,1,1,1,1,0,1,1,1,0,-1,-0,-1,-1,-1,-0,-1,-1,-1,-1,-1,-1,-1,-1" />
+			</SupportVectorClassCoefficients>
+		</Parameters>
+	</MachineLearningModel>
+</MLlib_XML_File>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MLlib_XML_File>
+	<MachineLearningModel modelName="support_vector_machine" defaultEngine="svm_fp64_engine">
+		<CustomAttributes />
+		<AuxiliarySpecifications>
+			<PTI str_producer="Beckhoff MLlib" str_producerVersion="3.1.220310.0" str_requiredVersion="3.1.200902.0" />
+		</AuxiliarySpecifications>
+		<Configuration str_operationType="SVM_TYPE_NU_CLASSIFIER" fp64_nu="0.5" str_kernelFunction="KERNEL_FN_LINEAR" int64_numInputAttributes="2" />
+		<Parameters str_engine="svm_fp64_engine">
+			<ModelInfo int64_numClasses="4" int64_numSVs="12" arrint32_classLabels="0,1,2,3" arrint32_numSVsPerClass="2,4,4,2" />
+			<ProbabilityInfo arrfp64_rhoConstants="-0.33648398518562317,0.66492944955825806,0.028284663334488869,1.9261642694473267,0.34472844004631042,-5.8434715270996094" bool_hasPairwiseProbabilities="false" />
+			<SupportVectors str_type="fp64" int64_rows="12" int64_columns="2">
+				<Row1 arrfp64_vals="3.078045129776001,-6.1340203285217285" />
+				<Row2 arrfp64_vals="0.97638171911239624,-9.8541440963745117" />
+				<Row3 arrfp64_vals="-6.668006420135498,-5.7963991165161133" />
+				<Row4 arrfp64_vals="-8.1889400482177734,-5.7057681083679199" />
+				<Row5 arrfp64_vals="-3.7691783905029297,-10.238323211669922" />
+				<Row6 arrfp64_vals="-3.6993765830993652,-9.0788908004760742" />
+				<Row7 arrfp64_vals="-4.2808279991149902,-0.75751626491546631" />
+				<Row8 arrfp64_vals="-2.4947288036346436,-0.68248647451400757" />
+				<Row9 arrfp64_vals="-4.2066183090209961,2.1839041709899902" />
+				<Row10 arrfp64_vals="-4.0063190460205078,-0.89519298076629639" />
+				<Row11 arrfp64_vals="-8.2093000411987305,2.7509877681732178" />
+				<Row12 arrfp64_vals="-5.4711251258850098,3.529681921005249" />
+			</SupportVectors>
+			<SupportVectorClassCoefficients str_type="fp64" int64_rows="3" int64_columns="12">
+				<Row1 arrfp64_vals="0,0.090008459985256195,-0,-0,-0.038299459964036942,-0.051708996295928955,-0,-0.032908253371715546,-0,-0,-0,-0.012013783678412437" />
+				<Row2 arrfp64_vals="0.032908253371715546,0,0.064357690513134003,0,0,0,-0.043185435235500336,-0,-0,-0.021172257140278816,-0.027965323999524117,-0" />
+				<Row3 arrfp64_vals="0.012013783678412437,0,0,0.027965323999524117,0,0,0,0,0.58649390935897827,0,-0,-0.58649390935897827" />
+			</SupportVectorClassCoefficients>
+		</Parameters>
+	</MachineLearningModel>
+</MLlib_XML_File>
